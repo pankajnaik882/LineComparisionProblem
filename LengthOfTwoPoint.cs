@@ -25,7 +25,10 @@ namespace LineComparisionProblem
             double lengthOfLine = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             Console.WriteLine("The lenght of line using co-ordinate : " + lengthOfLine);
 
-
+            bool checkX = Math.Equals(x2 - x1, lengthOfLine);
+            bool checkY = Math.Equals(y2 - y1, lengthOfLine);
+            Console.WriteLine(checkX);
+            Console.WriteLine(checkY);
 
 
         }
